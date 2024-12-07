@@ -1,0 +1,258 @@
+/* Reset some default margins and paddings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+/* Navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+/* Main content area */
+.main-content {
+  padding: 80px 20px 20px; /* Ensures content starts below navbar */
+}
+
+/* Products Page */
+.products-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Page Heading */
+.page-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Filters */
+.filters {
+  margin-bottom: 30px;
+}
+
+.filters-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.search-icon {
+  margin-right: 10px;
+  color: #999;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.filter-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.filter-select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.price-range {
+  margin-top: 20px;
+}
+
+.price-slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image-container {
+  width: 100%;
+  height: 250px; /* Fixed height for all product images */
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images are resized and centered */
+}
+
+
+.product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .product-overlay {
+  opacity: 1;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-category {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.product-material {
+  margin: 10px 0;
+  color: #555;
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.add-to-cart-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .filters-inner {
+    flex-direction: column;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+
+  .filter-inner {
+    flex-direction: column;
+  }
+}
+/* Popup message styles */
+.popup-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 1000;
+  opacity: 0.9;
+  transition: opacity 0.5s ease;
+}
+

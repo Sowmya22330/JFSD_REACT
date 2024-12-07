@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  background-color: #f1f1f1; /* Optional for page background */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure navbar spans the full width */
+}
+
+.main-content {
+  flex: 1; /* Fill the remaining vertical space */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  padding: 20px 0;
+  background-color: #f1f1f1;
 }
 
-.App-link {
-  color: #61dafb;
+.products-page {
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Optional max width for centered content */
+  padding: 20px;
+  margin: 0; /* Remove white space */
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Remove white space on smaller screens */
+@media (max-width: 768px) {
+  .products-page {
+    max-width: 100%; /* Allow full width on smaller devices */
+    border-radius: 0; /* Remove border-radius for a better fit */
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+/* Navbar links styling (optional) */
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #007bff;
 }

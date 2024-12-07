@@ -1,0 +1,153 @@
+.about-us-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+  }
+  
+  .about-section {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .card-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .card-section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .testimonial-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .testimonial {
+    width: 300px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  .product-highlights-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .product-highlights-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .highlights-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .highlight-card {
+    width: 280px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .highlight-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .highlight-card p {
+    font-size: 16px;
+    color: #555;
+  }
+    

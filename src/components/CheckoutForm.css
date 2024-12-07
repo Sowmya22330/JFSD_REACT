@@ -1,0 +1,56 @@
+/* Container Styling */
+.checkout-form-container {
+    max-width: 700px; /* Increased the width from 500px to 700px */
+    margin: 0 auto;
+    padding: 30px; /* Added more padding for a spacious feel */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for better visibility */
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 25px; /* Increased spacing */
+    color: #333;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Increased spacing for better alignment */
+  }
+  
+  .form-group .icon {
+    margin-right: 15px; /* More spacing between icons and inputs */
+    font-size: 24px; /* Larger icons for a modern look */
+    color: #555;
+  }
+  
+  input,
+  select {
+    flex: 1;
+    padding: 12px; /* Increased padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px; /* Slightly larger font for readability */
+  }
+  
+  /* Button Styling */
+  .submit-button {
+    width: 100%;
+    padding: 12px; /* Increased button height */
+    font-size: 20px; /* Larger button text */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  

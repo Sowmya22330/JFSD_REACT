@@ -1,0 +1,140 @@
+/* Styles for the login page */
+.login-page {
+    position: relative; /* Establish a positioning context */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center content vertically */
+    justify-content: flex-end; /* Align items to the right */
+    padding: 2rem; /* Add some padding */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Style for the background image */
+.background-image {
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the area without stretching */
+    z-index: -1; /* Send the image behind other content */
+}
+
+/* Style for the login container */
+.login-container {
+    background-color: white; /* Clean white background */
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+/* Title Styling */
+.login-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+/* Style for the login form */
+.login-form {
+    display: flex; /* Use flexbox for the form */
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 1rem; /* Space between inputs */
+}
+
+/* Input Field */
+.input-field {
+    flex: 1; /* Take full width inside input group */
+    border: none; /* Remove inner border */
+    outline: none; /* Remove outline on focus */
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: transparent; /* Transparent background */
+}
+
+/* Style for the log in button */
+.login-form button {
+    padding: 0.8rem; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #c59206; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Change button color on hover */
+.login-form button:hover {
+    background-color: #b38300; /* Darker shade on hover */
+}
+/* Style for Sign In button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for Admin Login button to look like the Sign In button */
+.admin-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color for Admin */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.admin-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for the sign-up link */
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link p {
+    font-size: 1rem;
+}
+
+.signup-link a {
+    color: #00bcd4; /* Link color */
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the sign-up link */
+.signup-link {
+    margin-top: 20px;
+  }
+  
+  .signup-link p {
+    font-size: 1rem;
+  }
+  
+  .signup-link a {
+    color: #00bcd4; /* Match with your button's color */
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+}
+
+/* Sidebar */
+.dashboard-sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.dashboard-sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-sidebar nav ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.dashboard-sidebar nav ul li:hover {
+    background-color: #495057;
+}
+
+.dashboard-sidebar nav ul li svg {
+    margin-right: 10px;
+}
+
+/* Main Content */
+.dashboard-main {
+    flex: 1;
+    padding: 20px;
+}
+
+.dashboard-main header {
+    margin-bottom: 20px;
+}
+
+.dashboard-main header h1 {
+    margin: 0;
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #6c757d;
+}
+
+/* Management Section */
+.management-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.management-section table thead tr {
+    background-color: #343a40;
+    color: white;
+}
+
+.management-section table th,
+.management-section table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.management-section table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.management-section table button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.management-section table button:hover {
+    opacity: 0.8;
+}
