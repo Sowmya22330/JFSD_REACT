@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/JFSD_REACT/static/css/main.eb21249c.css",
+    "main.js": "/JFSD_REACT/static/js/main.e60ef87c.js",
+    "static/js/453.02462de6.chunk.js": "/JFSD_REACT/static/js/453.02462de6.chunk.js",
+    "static/media/kanchipuram.jpg": "/JFSD_REACT/static/media/kanchipuram.e4784bc5a9bc6ab65667.jpg",
+    "static/media/kanichipuram saree.jpg": "/JFSD_REACT/static/media/kanichipuram saree.7cf52f91ad5acb1729c7.jpg",
+    "static/media/cotton kurthi.jpg": "/JFSD_REACT/static/media/cotton kurthi.ec2b2fd063b59fbb141d.jpg",
+    "static/media/banarasi silk.jpg": "/JFSD_REACT/static/media/banarasi silk.f01d2b2a2da7740a8d2f.jpg",
+    "static/media/cotton shawl.jpg": "/JFSD_REACT/static/media/cotton shawl.478097dc9b9b0060de35.jpg",
+    "static/media/hanloom_machine.webp": "/JFSD_REACT/static/media/hanloom_machine.d9a59fdaa75cccde72a5.webp",
+    "static/media/wool shawl.jpg": "/JFSD_REACT/static/media/wool shawl.7019e185d3ab9caf54ed.jpg",
+    "static/media/cushion cover.jpg": "/JFSD_REACT/static/media/cushion cover.f4bcdce62cd50186584b.jpg",
+    "static/media/hero1.jpg": "/JFSD_REACT/static/media/hero1.01a9a1731fb5a8143a91.jpg",
+    "static/media/Scarves.jpg": "/JFSD_REACT/static/media/Scarves.4d85f7bf3491f765adf0.jpg",
+    "static/media/map.webp": "/JFSD_REACT/static/media/map.db7be4ed3df90ca4cdaf.webp",
+    "static/media/Shawls.jpg": "/JFSD_REACT/static/media/Shawls.da284be9a15207b45700.jpg",
+    "static/media/foreigner3.jpg": "/JFSD_REACT/static/media/foreigner3.61277ac19f96fb10fc59.jpg",
+    "static/media/foreigner1.jpeg": "/JFSD_REACT/static/media/foreigner1.21213709572a0278efb3.jpeg",
+    "index.html": "/JFSD_REACT/index.html",
+    "main.eb21249c.css.map": "/JFSD_REACT/static/css/main.eb21249c.css.map",
+    "main.e60ef87c.js.map": "/JFSD_REACT/static/js/main.e60ef87c.js.map",
+    "453.02462de6.chunk.js.map": "/JFSD_REACT/static/js/453.02462de6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb21249c.css",
+    "static/js/main.e60ef87c.js"
+  ]
+}
