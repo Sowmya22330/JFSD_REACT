@@ -5,42 +5,13 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
-
-    <!-- Custom CSS for Google Translate Positioning -->
-    <style>
-      /* Position the Google Translate widget in the top-left corner */
-      #google_translate_element {
-        position: fixed; /* Fixed position */
-        top: 10px; /* Distance from the top */
-        left: 10px; /* Distance from the left */
-        z-index: 9999; /* Make sure it's on top of other elements */
-      }
-    </style>
+    <title>FarmMinds</title>
+    <meta http-equiv="Permissions-Policy" content="geolocation=(self), microphone=(self)" />
   </head>
   <body>
-    <!-- Google Translate Widget -->
-    <div id="google_translate_element"></div> <!-- This is the container for the language switcher -->
-
-    <!-- Main React Application -->
-    <div id="root"></div> 
-
-    <!-- Google Translate Script -->
-    <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en', // Default language
-          includedLanguages: 'en,hi,te', // Languages to support
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-      }
-    </script>
-    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div id="root"></div>
   </body>
 </html>
