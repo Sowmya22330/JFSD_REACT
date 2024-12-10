@@ -43,6 +43,7 @@ function App() {
 
   return (
     <BrowserRouter basename="/JFSD_REACT">
+
       <CartProvider>
         {/* Conditionally render Navbar */}
         <Layout />
